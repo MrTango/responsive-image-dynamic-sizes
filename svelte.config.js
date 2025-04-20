@@ -4,7 +4,13 @@ import { mdsvex } from 'mdsvex';
 
 const config = {
 	preprocess: [vitePreprocess(), mdsvex()],
-	kit: { adapter: adapter() },
+	kit: {
+		adapter: adapter({
+			pages: 'build',   // This tells in which folder to build the static files to
+			assets: 'build',  // This tells in which folder to build the static files to
+			fallback: null
+		})
+	},
 	extensions: ['.svelte', '.svx']
 };
 

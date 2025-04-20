@@ -3,7 +3,7 @@
   let sizes = $derived.by(() => {
     let sizesItems = [];
     sizesItems.push(`(min-width: 800px) ${imageWidth}px`);
-    sizesItems.push(['100vw'])
+    sizesItems.push(['96vw'])
     return sizesItems.join(",\n")
   })
 </script>

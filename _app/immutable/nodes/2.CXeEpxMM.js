@@ -4,5 +4,5 @@ import{t as T,a as k}from"../chunks/C_RJRqVZ.js";import{s as w,j as E,m as P,o a
 						  https://placehold.co/1000 1000w,
 						  https://placehold.co/1200 1200w,
 						  https://placehold.co/1600 1600w,
-						  https://placehold.co/1920 1920w"> <img alt="" width="400" height="300" src="https://placehold.co/400" class="svelte-1ksxyhe"></picture></div></div>`);function se(e){let r=H(200),a=Y(()=>{let c=[];return c.push(`(min-width: 800px) ${f(r)}px`),c.push(["100vw"]),c.join(`,
+						  https://placehold.co/1920 1920w"> <img alt="" width="400" height="300" src="https://placehold.co/400" class="svelte-1ksxyhe"></picture></div></div>`);function se(e){let r=H(200),a=Y(()=>{let c=[];return c.push(`(min-width: 800px) ${f(r)}px`),c.push(["96vw"]),c.join(`,
 `)});var i=re(),t=u(v(i),2);J(t);var s=u(t,2),d=v(s,!0);l(s);var o=u(s,2),m=v(o),A=v(m),I=u(A,2);let S;l(m),l(o),l(i),C(()=>{B(d,f(r)),g(A,"sizes",f(a)),S=X(I,"",S,{width:`${f(r)}px`})}),ee(t,()=>f(r),c=>q(r,c)),k(e,i)}export{se as component};
